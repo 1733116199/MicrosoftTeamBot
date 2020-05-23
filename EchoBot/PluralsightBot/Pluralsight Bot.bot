@@ -1,0 +1,27 @@
+{
+    "name": "Pluralsight Bot",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "id": "34e214a0-9af8-11ea-a6ec-3fd5458484ab",
+            "name": "development"
+        },
+        {
+            "type": "luis",
+            "appId": "1da7060a-405d-4257-a798-d9cc39b186fb",
+            "authoringKey": "42829b3f46e447aa90512add8b406943",
+            "endpoint": "http://localhost:3978/api/messages",
+            "id": "60",
+            "name": "customerServiceModel",
+            "subscriptionKey": "42829b3f46e447aa90512add8b406943"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "path": "/Users/yang2/Desktop/MicrosoftTeamBots/EchoBot/PluralsightBot/Pluralsight Bot.bot",
+    "overrides": null
+}
